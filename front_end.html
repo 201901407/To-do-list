@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="front_end_css.css">
+        <link rel="stylesheet" type="text/css" href="new_event_css.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <ul id="ullist">
+        </ul>
+        <form>
+            <h4>Create New Event</h4>
+            <input type="text" placeholder="Event Name" class="field" id="name"><br>
+            <input type="text" placeholder="Event Description" class="field" id="des"><br>
+            <input type="date" placeholder="Event Date" class="field" id="event_date"><br>
+            <input type="time" placeholder="Event Start Time" class="field" id="est"><br>
+            <input type="time" placeholder="Event End Time" class="field" id="eet">
+            <input type="button" onclick="addEvent()" value="Create" class="btn">
+        </form>
+        <form>
+            <h4>Find Event</h4>
+            <input type="text" placeholder="Search events..." class="field" id="query">
+            <input type="button" onclick="findEvent()" class="btn" value="Find">
+        </form>
+        <ul id="resultlist">
+        </ul>
+        <script src="list_script.js"></script>
+    </body>
+</html>
