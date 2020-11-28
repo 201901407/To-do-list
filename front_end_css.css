@@ -1,0 +1,61 @@
+html{
+    background-color: blueviolet;
+}
+
+.name_title{
+    font-size: 3rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 7rem 10rem 5rem 10rem;
+    width: auto;
+    background-color: white;
+    border: 1rem solid white;
+    border-radius: 0.5rem;
+    list-style-type: none;
+}
+
+.name_title:hover{
+    box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem rgb(34, 23, 139);
+}
+
+.bound{
+    padding: 1rem;
+}
+
+.create{
+    margin:5rem 15rem 5rem 15rem;
+    width: 20rem;
+}
+
+.create_button{
+    font-size: 3rem;
+    width: 7rem;
+    height: 6rem;
+    font-weight: bold;
+}
+
+.fields{
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 3rem;
+}
+
+.subfields{
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkred;
+}
+
+.deletebtn{
+    float: right;
+    margin: 0.5rem;
+    padding: 0.6rem;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    border: 0px solid white;
+}
+
+.deletebtn:hover{
+    background-color: gray;
+}
